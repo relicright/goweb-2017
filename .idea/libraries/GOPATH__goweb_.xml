@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;goweb&gt;">
+    <CLASSES>
+      <root url="file://C:/Projects/Go/src/avatarapp" />
+      <root url="file://C:/Projects/Go/src/golang.org" />
+      <root url="file://C:/Projects/Go/src/palindrome" />
+      <root url="file://C:/Projects/Go/src/sourcegraph.com" />
+      <root url="file://C:/Projects/Go/src/reavatar" />
+      <root url="file://C:/Projects/Go/src/github.com" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://C:/Projects/Go/src/avatarapp" />
+      <root url="file://C:/Projects/Go/src/golang.org" />
+      <root url="file://C:/Projects/Go/src/palindrome" />
+      <root url="file://C:/Projects/Go/src/sourcegraph.com" />
+      <root url="file://C:/Projects/Go/src/reavatar" />
+      <root url="file://C:/Projects/Go/src/github.com" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>

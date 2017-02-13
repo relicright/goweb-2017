@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test2</title>
+</head>
+<body>
+
+Name is {{.}}
+
+Name with change is {{adder .}}
+
+
+{{define "template2"}}
+<h1>Whats up this is template 2</h1>
+<p>I added a bunch of different types of font</p>
+<ul>
+	<li>Check</li>
+	<li>This</li>
+	<li>Out</li>
+</ul>
+{{end}}
+
+{{template "template2"}}
+
+</body>
+</html>

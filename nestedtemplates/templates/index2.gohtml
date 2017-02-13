@@ -1,0 +1,18 @@
+<html>
+<body>
+
+{{/*This template can be called from other pages and you can define as many templates as you want*/}}
+
+{{define "polarbear"}}
+This is my polar bear nested template
+{{end}}
+
+
+
+{{/* You can also receive data from other sources to use in your nested template*/}}
+{{define "polarbearwithdata"}}
+This is polar bear data here -> {{.}}
+{{end}}
+
+</body>
+</html>

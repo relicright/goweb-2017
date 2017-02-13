@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<title>Test Title</title>
+</head>
+<body>
+<h1>{{.ChangeData .Name}}</h1>
+
+{{template "testemp"}}
+</body>
+</html>
+
+
+
+{{define "testemp"}}
+<h1>This is the test temp here with a data finder in it</h1>
+<p>the data finder is here -> {{.Name}}</p>
+{{end}}
